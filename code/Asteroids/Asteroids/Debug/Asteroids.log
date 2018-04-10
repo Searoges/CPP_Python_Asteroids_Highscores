@@ -1,0 +1,29 @@
+﻿  Ship.cpp
+  Rock.cpp
+  GameStates.cpp
+  ExplosionManager.cpp
+  Bullet.cpp
+  BaseObject.cpp
+  AstGame.cpp
+  Vector3.cpp
+d:\cpp_python_asteroids_highscores\code\asteroids\asteroids\engine\vector3.cpp(66): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Vector2.cpp
+d:\cpp_python_asteroids_highscores\code\asteroids\asteroids\engine\vector2.cpp(22): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Timer.cpp
+  StateMachine.cpp
+  Renderer.cpp
+  Matrix.cpp
+d:\cpp_python_asteroids_highscores\code\asteroids\asteroids\engine\matrix.cpp(162): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Input.cpp
+  DebugPrinter.cpp
+  bitmap.cpp
+  cpp client.cpp
+  03.asteroids.cpp
+  Generating Code...
+MSVCRTD.lib(initializers.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Asteroids.vcxproj -> D:\CPP_Python_Asteroids_Highscores\code\Asteroids\Debug\Asteroids.exe
+  Asteroids.vcxproj -> D:\CPP_Python_Asteroids_Highscores\code\Asteroids\Debug\Asteroids.pdb (Partial PDB)
+  D:\CPP_Python_Asteroids_Highscores\code\Asteroids\Asteroids\3rdParty\SDL2-2.0.7\lib\x86\SDL2.dll
+  1 File(s) copied
+  D:\CPP_Python_Asteroids_Highscores\code\Asteroids\Asteroids\resources\font.bmp
+  1 File(s) copied

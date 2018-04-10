@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="game">
+      <UniqueIdentifier>{b2d0128b-a795-469c-8abd-5137d215079a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine">
+      <UniqueIdentifier>{a7f34613-2d08-4d63-bf15-87bc64e69eff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="engine\typedef.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\bitmap.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\DebugPrinter.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\Input.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\Renderer.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\Singleton.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\StateMachine.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\Timer.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="game\AstGame.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\BaseObject.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Bullet.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Collider.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\ExplosionManager.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\GameStates.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Rock.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Ship.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\Matrix.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\Vector2.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\Vector3.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="engine\bitmap.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\DebugPrinter.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\Input.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\Renderer.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\StateMachine.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\Timer.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="game\AstGame.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\BaseObject.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Bullet.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\ExplosionManager.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\GameStates.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Rock.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Ship.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\Matrix.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\Vector2.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\Vector3.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

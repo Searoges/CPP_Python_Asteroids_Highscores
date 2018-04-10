@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Pong\Ball.cpp" />
+    <ClCompile Include="Pong\Object.cpp" />
+    <ClCompile Include="Pong\Player.cpp" />
+    <ClCompile Include="Pong\Pong.cpp" />
+    <ClCompile Include="02.pong.cpp" />
+    <ClCompile Include="engine\Renderer.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\bitmap.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\DebugPrinter.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\Timer.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\StateMachine.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Pong\PongGameState.cpp" />
+    <ClCompile Include="engine\Input.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pong\Ball.h" />
+    <ClInclude Include="Pong\Object.h" />
+    <ClInclude Include="Pong\Player.h" />
+    <ClInclude Include="Pong\Pong.h" />
+    <ClInclude Include="engine\Renderer.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\Singleton.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\bitmap.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\DebugPrinter.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\Timer.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\StateMachine.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Pong\PongGameState.h" />
+    <ClInclude Include="engine\Input.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\typedef.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="engine">
+      <UniqueIdentifier>{006f3739-424b-4c95-ab83-af61db0e6691}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
